@@ -7,11 +7,11 @@ public class Botones : MonoBehaviour
 {
     public void inicio()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void volver()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void aprender()
